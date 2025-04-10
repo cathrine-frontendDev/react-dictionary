@@ -5,7 +5,7 @@ import "./Dictionary.css";
 
 
 export default function Dictionary () {
-    let [keyWord, setKeyword] = useState("");
+    let [keyword, setKeyword] = useState("");
     let [results, setResults] = useState(null);
 
     function handleResponse(response) {
@@ -18,7 +18,7 @@ export default function Dictionary () {
 
     let apiKey =" 0eb691o00e3fb24a210b62tf2c42a9e3";
     let apiUrl ="https://api.shecodes.io/dictionary/v1/define?word=${book}&key=${0eb691o00e3fb24a210b62tf2c42a9e3}";
-    let word= book;
+    let word= "book";
     axios.get(apiUrl).then(handleResponse);
     }
 
