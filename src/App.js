@@ -8,7 +8,7 @@ function App() {
       <div className="container">
       <h1>English Dictionary</h1>
       <main>
-        <Dictionary/>
+        <Dictionary defaultKeyword="lily"/>
       </main>
       <footer className="text-centre">
         This project was coded by Cathrine Kamasho
