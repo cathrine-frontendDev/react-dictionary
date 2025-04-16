@@ -11,7 +11,8 @@ function App() {
         <Dictionary defaultKeyword="lily"/>
       </main>
       <footer className="text-centre">
-        This project was coded by Cathrine Kamasho
+        This project was coded by Cathrine Kamasho and is {" "}
+        <a href="https://github.com/cathrine-frontendDev/react-dictionary">open-sourced on GitHub.</a>
       </footer>
       </div>
     </div>
