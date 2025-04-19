@@ -11,7 +11,7 @@ export default function Photos(props) {
                     return (
                         <div className="col-4" key={index}>
                                 <img src={photo.src.landscape}
-                    className="img-fluid" width={200} height={150} />
+                    className="img-fluid"  />
                     </div>
                     );
                 })}
